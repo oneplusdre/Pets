@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:showIn="@layout/activity_scrolling"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ScrollingActivity">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Past pets of mine include dogs Princess and Lily, a ball python Betsy, a female cat who I named 'Steve' because I didn't know her sex when I first got her, and of course my fictional pets, my dragons Jack and Jill. Currently I have no pets, as all have either passed away, or in the case of the dragons,were given away to shelters because local laws prohibited keeping them as pets in my city.   "/>
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
